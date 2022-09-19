@@ -59,7 +59,7 @@ pueda cifrar y descifrar un texto en el navegador indicando un desplazamiento es
 caracteres (_offset_). Lo harás utilizando HTML, CSS y JavaScript.
 
 La temática es libre. Piensa en qué situaciones se necesitaría cifrar un mensaje. Decide 
-cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colore, etc.) 
+cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colores, etc.) 
 Algunas ideas de ejemplo:
 
 * Crear claves seguras para el email.
@@ -68,56 +68,53 @@ Algunas ideas de ejemplo:
   una zona de conflicto.
 * Mensajería secreta para parejas.
 
-## 3. Objetivos de aprendizaje específicos
-
-> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
-> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
-> al crear el repo del proyecto para un cohort en particular usando
-> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
->
-> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
-> que contempla nuestra currícula.
-
 ## 4. Consideraciones generales
 
-* El equipo te dará indicaciones sobre si trabajar sola o en dupla. También te sugerirá un tiempo estimado para trabajar en el proyecto (en semanas).
+* Este proyecto debes que resolver en una manera individual.
 * Enfócate en aprender y no solamente en "completar" el proyecto. Te va a costar.
-* Sigue leyemdo y no te preocupes demasiado por lo que TODAVÏA no entiendas. Irás aprendiendo 
-mientras intentas completar el proyecto. Recuerda que el aprendizaje no es necesariamente lineal.
+* Te sugerimos que no intentes saberlo todo antes de empezar a codear, vas a ir investigando lo que necesites para resolver paso a paso los mini-retos. No te preocupes demasiado por lo que todavia no entiendas. Recuerda que el aprendizaje no es necesariamente lineal.
 
-## 5. Hito 1: criterios de aceptación mínimos del proyecto. 
+## 5. Hito 1: Criterios de aceptación mínimos del proyecto. 
 
-### 5.1 La interfaz debe permitir a la usuaria:
-#### Para cifrar
-* Insertar el mensaje (texto) que quiere cifrar.
-* Elegir un desplazamiento (_offset_) indicando cuántas posiciones quiere que
-  el cifrado desplace cada caracter en el alfabeto.
-* Ver el resultado del mensaje cifrado.
+Estes son los requisitos que tu proyecto debes que cumplir para asegurar que tu trabajo toca los objetivos importantes.  
+Con estes requisitos cumplido puedes considerar Project Feedback con un coach.
 
-#### Para Descifrar
-* Insertar el mensaje (texto) que quiere descifrar.
-* Elegir un desplazamiento (_offset_) indicando cuántas posiciones quiere que
-  el cifrado desplace cada caracter en el alfabeto.
-* Ver el resultado del mensaje descifrado.
+1. Una interfaz debe permitir a la usuaria:
 
-Hay muchas y difrentes maneras de hacerlo.
+  * **Cifrar un mensaje**
+    * Insertar el mensaje (texto) que quiere cifrar. El mensaje usa alfabeto simplificado (solamente mayúsculas y sin ñ).
+    * Elegir un numero de desplazamiento (_offset_) indicando cuántas posiciones quiere que
+  el cifrado desplace cada caracter en el alfabeto. El numero sera positiva y entera (positive integer).
+    * Ver el resultado del mensaje cifrado.
 
-### 5.2 Usa este alfabeto simplificado (solamente mayúsculas y sin ñ):
-* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+ * **Descifrar un mensaje**
+    * Insertar el mensaje (texto) que quiere descifrar. El mensaje usa alfabeto simplificado (solamente mayúsculas y sin ñ).
+    * Elegir un numero desplazamiento (_offset_) indicando cuántas posiciones quiere que
+  el cifrado desplace cada caracter en el alfabeto. El numero sera positiva y entera (positive integer).
+    * Ver el resultado del mensaje descifrado.
 
-### 5.3 El proyecto será entregado subiendo tu código a GitHub
-### 5.4 La interfaz será "desplegada" usando GitHub Pages. 
+2. Pruebas unitarios de los métodos de `cipher` (`encode` y `decode`) y un resultado `eslint` libre de errores (_warnings_ son ok)
+3. Código final subido en tu repo a GitHub.
+4. La interfaz / pagina "desplegada" usando GitHub Pages. 
+5. Un README que contiene una definición del producto
 
-### Definición del producto
-
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
+  Cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
 para definir el producto final a nivel de experiencia y de interfaz.
 
-* Quiénes son los principales usuarios de producto.
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+  * Quiénes son los principales usuarios de producto.
+  * Cuáles son los objetivos de estos usuarios en relación con tu producto.
+  * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
-## Hito 2 (opcional): agrega soporte para minúsculas y otros caracteres
+### En resumen
+Criterios de aceptación mínimos del proyecto para considerar Project Feedback:
+
+* [ ] Tiene una interfaz que permite a la usuaria cifrar y descifrar
+* [ ] El proyecto será entregado incluyendo pruebas unitarios de los métodos de `cipher` (`encode` y `decode`) y libre de _errores_ `eslint` (_warnings_ son ok)
+* [ ] El proyecto será entregado subiendo tu código a GitHub.
+* [ ] La interfaz será "desplegada" usando GitHub Pages. 
+* [ ] El README contiene una definición del producto
+
+## Hito 2 (opcional): Agrega soporte para minúsculas y otros caracteres
 Las partes "opcionales" tienen como intención permitirte profundizar un poco más sobre 
 los objetivos de aprendizaje del proyecto. Todo en la vida tiene pros y contras, decide 
 sabiamente si quieres invertir el tiempo en profundizar/perfeccionar o aprender cosas 
@@ -125,10 +122,6 @@ nuevas en el siguiente proyecto.
 
 El hito 1 no menciona qué pasaría con las letras minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El _boilerplate_ incluye algunos _tests_ (comentados en principio) que 
 puedes usar como punto de partida para implementar el soporte para estos casos adicionales.
-
-## Hito 3: permite un desplazamiento negativo
-Tampoco se menciona qué pasaría si el offset fuera negativo. Te invitamos a explorar también 
-este caso por tu cuenta.
 
 ## 7. Consideraciones técnicas
 
