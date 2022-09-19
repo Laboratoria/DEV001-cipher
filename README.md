@@ -2,15 +2,16 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [1. Objetivos de aprendizaje generales](#1-objetivos-de-aprendizaje-generales)
+* [2. Preámbulo](#2-preámbulo)
+* [3. Resumen del proyecto](#2-resumen-del-proyecto)
 * [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
+* [5. Hito 1: Criterios de aceptación mínimos del proyecto](#5-hito-1-criterios-de-aceptación-mínimos-del-proyecto)
+* [6. Hito 2 (opcional): Agrega soporte para minúsculas y otros caracteres](#6-hito-2-(opcional)-agrega-soporte-para-minúsculas-y-otros-caracteres)
 * [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
+* [8. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [9. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+
 
 ***
 
@@ -52,7 +53,7 @@ comunicación por sí mismos; el cifrado César sí puede formar parte de sistem
 más complejos de codificación, como el cifrado Vigenère, e incluso tiene
 aplicación en el sistema ROT13.
 
-## 2. Resumen del proyecto
+## 3. Resumen del proyecto
 
 En este proyecto crearás una aplicación web que servirá para que tu usuaria
 pueda cifrar y descifrar un texto en el navegador indicando un desplazamiento específico de
@@ -74,7 +75,7 @@ Algunas ideas de ejemplo:
 * Enfócate en aprender y no solamente en "completar" el proyecto. Te va a costar.
 * Te sugerimos que no intentes saberlo todo antes de empezar a codear, vas a ir investigando lo que necesites para resolver paso a paso los mini-retos. No te preocupes demasiado por lo que todavia no entiendas. Recuerda que el aprendizaje no es necesariamente lineal.
 
-## 5. Hito 1: Criterios de aceptación mínimos del proyecto. 
+## 5. Hito 1: Criterios de aceptación mínimos del proyecto 
 
 Estes son los requisitos que tu proyecto debes que cumplir para asegurar que tu trabajo toca los objetivos importantes.  
 Con estes requisitos cumplido puedes considerar Project Feedback con un coach.
@@ -114,7 +115,7 @@ Criterios de aceptación mínimos del proyecto para considerar Project Feedback:
 * [ ] La interfaz será "desplegada" usando GitHub Pages. 
 * [ ] El README contiene una definición del producto
 
-## Hito 2 (opcional): Agrega soporte para minúsculas y otros caracteres
+## 6. Hito 2 (opcional): Agrega soporte para minúsculas y otros caracteres
 Las partes "opcionales" tienen como intención permitirte profundizar un poco más sobre 
 los objetivos de aprendizaje del proyecto. Todo en la vida tiene pros y contras, decide 
 sabiamente si quieres invertir el tiempo en profundizar/perfeccionar o aprender cosas 
@@ -130,8 +131,7 @@ este proyecto NO está permitido usar librerías o frameworks, solo JavaScript p
 también conocido como Vanilla JavaScript.
 
 Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
-repositorio que contiene un _boilerplate_. Este incluye tests (pruebas) 
-de ejemplo como punto de partida.
+repositorio que contiene un _boilerplate_ con tests (pruebas). Un _boilerplate_ es la estructura basica de un proyecto que sirve como un punto de partida con archivos inicial y configuración basica de dependencias y tests.  
 
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
 y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
@@ -139,8 +139,7 @@ setup y configuración necesaria para ejecutar los tests (pruebas) así como _co
 coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
 test`.
 
-El _boilerplate_ contiene una estructura de archivos como punto de partida así
-como toda la configuración de dependencias y tests de ejemplo:
+El boilerplate que les damos contiene este estructura:
 
 ```text
 ./
@@ -160,7 +159,7 @@ como toda la configuración de dependencias y tests de ejemplo:
     └── cipher.spec.js
 ```
 
-### Scripts / Archivos
+### Descripción de scripts / archivos
 
 * `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
   así como una introducción a la aplicación, su funcionalidad y decisiones de
@@ -195,7 +194,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 ***
 
 
-## 3. Objetivos de aprendizaje
+## 8. Objetivos de aprendizaje
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
@@ -360,7 +359,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ***
 
-## 8. Pistas, tips y lecturas complementarias
+## 9. Pistas, tips y lecturas complementarias
 
 ### Prepara tu PC para trabajar.
 
