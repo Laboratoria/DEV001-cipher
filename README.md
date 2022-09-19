@@ -367,9 +367,9 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
    condiciones, algo como [Atom](https://atom.io/) o
    [Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
-   [UNIX Shell](../../topics/shell),
-   que es un prograa que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](../../topics/scm/01-git)
+   [UNIX Shell](https://curriculum.laboratoria.la/es/topics/shell),
+   que es un programa que interpreta líneas de comando (command-line
+   interpreter) así como tener [git](https://curriculum.laboratoria.la/es/topics/scm/01-git)
    instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
    también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.net/)
@@ -394,6 +394,8 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 8. A codear se ha dicho! :rocket:
 
 ### Recursos y temas relacionados
+
+Súmate al canal de Slack [#project-cipher](https://claseslaboratoria.slack.com/archives/C03LJSH6R7D)
 
 A continuación un video que te lleva a través de la fórmula matemática del Cifrado César 
 y un par de cosas más que debes saber para resolver este proyecto. La fórmula no es lo iportante del proyecto, no te confundas.
