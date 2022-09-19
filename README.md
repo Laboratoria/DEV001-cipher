@@ -15,11 +15,15 @@
 ***
 
 ## 1. Objetivos de aprendizaje generales
-Como continuación del proyecto de preadmisión, volverás a trabajar sobre fundamentos de JavaScript, incluyendo conceptos como variables, condicionales, strings y funciones, así como manipulación básica del DOM, eventos del DOM, fundamentos de HTML (semántica) y CSS (selectores y reglas de estilo).
+Como continuación del proyecto de preadmisión, volverás a trabajar sobre fundamentos de JavaScript, incluyendo conceptos como variables, condicionales, y funciones, así como eventos y manipulación básica del DOM, fundamentos de HTML y CSS.
 
-Esta vez profundizamos un poco más en fundamentos de JavaScript, exploramos bucles e iteración, además de introducir la idea de pruebas unitarias, linters, módulos (import/export), control de versiones y despliegue a GitHub Pages. También se introduce en detalle la idea del modelo de caja (box model) en CSS.
+Mientras cumplir este proyecto, familiarizarás con estes nuevos conceptos:
 
-[//]: <> (Esto debería incrustarse desde la descripción del nivel. Dado que esta versión es una prueba, pues pongo acá directamente)
+* Un _boilerplate_, la estructura básica de un proyecto en distintas carpetas (que usa npm).
+* Las herramientas mantenimiento y mejora del código (linters y pruebas unitarias).
+* Objetos en JavaScript, su estructura y métodos.
+* Arreglos (arrays) en Javascript y iteración (bucles).
+* Control de versiones con git (y la plataforma github)
 
 ## 2. Preámbulo
 
