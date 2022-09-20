@@ -110,6 +110,7 @@ Estes son los requisitos que tu proyecto debes que cumplir para asegurar que tu 
 Con estes requisitos cumplido puedes considerar Project Feedback con un coach.
 
 ## 6. Hito 2 (opcional): Agrega soporte para minúsculas y otros caracteres
+
 Las partes "opcionales" tienen como intención permitirte profundizar un poco más sobre 
 los objetivos de aprendizaje del proyecto. Todo en la vida tiene pros y contras, decide 
 sabiamente si quieres invertir el tiempo en profundizar/perfeccionar o aprender cosas 
@@ -160,6 +161,8 @@ El boilerplate que les damos contiene este estructura:
   diseño que tomaron.
 * `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
   debe contener tu _markup_ (HTML) e incluir el CSS y JavaScript necesario.
+* `src/style.css`: este archivo debe contener las reglas de estilo. Queremos que escribas tus
+propias reglas, por eso NO está permitido el uso de frameworks de CSS (Bootstrap, materialize, etc).
 * `src/cipher.js`: acá debes implementar el objeto `cipher`, el cual ya está
   _exportado_ en el _boilerplate_. Este objeto (`cipher`) debe contener dos
   métodos:
