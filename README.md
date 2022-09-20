@@ -71,9 +71,10 @@ Algunas ideas de ejemplo:
 
 ## 4. Consideraciones generales
 
-* Este proyecto debes que resolver en una manera individual.
+* Este proyecto debes que resolver en una manera individual. Te recomendamos una duracion de 1-3 sprints.
 * Enfócate en aprender y no solamente en "completar" el proyecto. Te va a costar.
-* Te sugerimos que no intentes saberlo todo antes de empezar a codear, vas a ir investigando lo que necesites para resolver paso a paso los mini-retos. No te preocupes demasiado por lo que todavia no entiendas. Recuerda que el aprendizaje no es necesariamente lineal.
+* Te sugerimos que no intentes saberlo todo antes de empezar a codear. No te preocupes demasiado ahora por lo que _todavía_ no entiendas. Irás aprendiendo.
+
 
 ## 5. Hito 1: Criterios de aceptación mínimos del proyecto 
 
