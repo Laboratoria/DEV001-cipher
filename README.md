@@ -339,11 +339,11 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Sitio oficial de GitHub Pages](https://pages.github.com/)
 </p></details>
 
-### user-centricity
+### Centrado en el usuario
 
 - [ ] **Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro**
 
-### product-design
+### Diseño de producto
 
 - [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
 
