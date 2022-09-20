@@ -11,7 +11,7 @@
 * [7. Consideraciones técnicas](#7-consideraciones-técnicas)
 * [8. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [9. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-
+* [10. Para considerar Project Feedback](#10-para-considerar-project-feedback)
 
 ***
 
@@ -20,10 +20,10 @@ Como continuación del proyecto de preadmisión, volverás a trabajar sobre fund
 
 Mientras cumplir este proyecto, familiarizarás con estes nuevos conceptos:
 
-* Un _boilerplate_, la estructura básica de un proyecto en distintas carpetas (que usa npm).
+* Un _boilerplate_, la estructura básica de un proyecto en distintas carpetas (atraves `modulos` en JS).
 * Las herramientas mantenimiento y mejora del código (linters y pruebas unitarias).
 * Objetos en JavaScript, su estructura y métodos.
-* Arreglos (arrays) en Javascript y iteración (bucles).
+* Iteración (bucles) en JavaScript.
 * Control de versiones con git (y la plataforma github)
 
 ## 2. Preámbulo
@@ -78,9 +78,8 @@ Algunas ideas de ejemplo:
 ## 5. Hito 1: Criterios de aceptación mínimos del proyecto 
 
 Estes son los requisitos que tu proyecto debes que cumplir para asegurar que tu trabajo toca los objetivos importantes.  
-Con estes requisitos cumplido puedes considerar Project Feedback con un coach.
 
-1. Una interfaz debe permitir a la usuaria:
+**1. Una interfaz que debe permitir a la usuaria:**
 
   * **Cifrar un mensaje**
     * Insertar el mensaje (texto) que quiere cifrar. El mensaje usa alfabeto simplificado (solamente mayúsculas y sin ñ).
@@ -94,26 +93,20 @@ Con estes requisitos cumplido puedes considerar Project Feedback con un coach.
   el cifrado desplace cada caracter en el alfabeto. El numero sera positiva y entera (positive integer).
     * Ver el resultado del mensaje descifrado.
 
-2. Pruebas unitarios de los métodos de `cipher` (`encode` y `decode`) y un resultado `eslint` libre de errores (_warnings_ son ok)
-3. Código final subido en tu repo a GitHub.
-4. La interfaz / pagina "desplegada" usando GitHub Pages. 
-5. Un README que contiene una definición del producto
+**2. Pruebas unitarios de los métodos.**  
+  Los metódos de `cipher` (`encode` y `decode`) deben tener cobertura con pruebas unitarias.
 
-  Cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.
+**3. Código de tu proyecto subido a tu repo y interfaz "desplegada".**  
+  El código final debe que estar subido al GitHub. La interfaz, la pagina web, debe ser "desplegada" usando GitHub Pages.
+
+**4. Un README que contiene una definición del producto.**  
+  En el README cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz. Estas preguntas sirven como guia:
 
   * Quiénes son los principales usuarios de producto.
   * Cuáles son los objetivos de estos usuarios en relación con tu producto.
   * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
-### En resumen
-Criterios de aceptación mínimos del proyecto para considerar Project Feedback:
-
-* [ ] Tiene una interfaz que permite a la usuaria cifrar y descifrar
-* [ ] El proyecto será entregado incluyendo pruebas unitarios de los métodos de `cipher` (`encode` y `decode`) y libre de _errores_ `eslint` (_warnings_ son ok)
-* [ ] El proyecto será entregado subiendo tu código a GitHub.
-* [ ] La interfaz será "desplegada" usando GitHub Pages. 
-* [ ] El README contiene una definición del producto
+Con estes requisitos cumplido puedes considerar Project Feedback con un coach.
 
 ## 6. Hito 2 (opcional): Agrega soporte para minúsculas y otros caracteres
 Las partes "opcionales" tienen como intención permitirte profundizar un poco más sobre 
@@ -161,7 +154,7 @@ El boilerplate que les damos contiene este estructura:
 
 ### Descripción de scripts / archivos
 
-* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
+* `README.md`: debe explicar la información necesarias para el uso de tu aplicación web,
   así como una introducción a la aplicación, su funcionalidad y decisiones de
   diseño que tomaron.
 * `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
@@ -192,7 +185,6 @@ En cuanto a reglas/guías de estilo en sí,
 usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 ***
-
 
 ## 8. Objetivos de aprendizaje
 
@@ -395,15 +387,12 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### Recursos y temas relacionados
 
-Súmate al canal de Slack [#project-cipher](https://claseslaboratoria.slack.com/archives/C03LJSH6R7D)
+Súmate al canal de Slack [#project-cipher](https://claseslaboratoria.slack.com/archives/C03LJSH6R7D) para conversar y pedir ayuda del proyecto.
 
 A continuación un video que te lleva a través de la fórmula matemática del Cifrado César 
 y un par de cosas más que debes saber para resolver este proyecto. La fórmula no es lo iportante del proyecto, no te confundas.
 
 [![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
-
-[//]: <> (También una metodología para empezar a desarrollar tareas con JavaScript https://www.youtube.com/watch?v=lYfEmhLmu7A Un ladrillo que quito del camino)
-
 
 Terminal y shell de UNIX:
 
@@ -417,19 +406,8 @@ Control de versiones y trabajo colaborativo con Git y GitHub:
 
 [Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
 
-Diseño de experiencia de usuario (User Experience Design):
-
-* Ideación
-* Prototipado (sketching)
-* Testeo e Iteración
-
 Desarrollo Front-end:
 
-* Valores
-* Tipos
-* Variables
-* Control de flujo
-* Tests unitarios
 * [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
 * [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
 * [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
@@ -444,4 +422,15 @@ Organización del Trabajo:
   poco a lo largo del -_bootcamp_.
 * [Guía para Cifrado César](https://docs.google.com/presentation/d/e/2PACX-1vTQ7-8LZDHrT4Y6AOBN72Nkfz1eJAeseBHpcHX8BSq0aFCFoZmuMjluMeyFNgK9ISKxTz0H03yGfJiT/pub?start=false&loop=false&delayms=60000)
 
+***
 
+## 10. Para considerar Project Feedback
+
+En resumen, los criterios de aceptación mínimos del proyecto para considerar Project Feedback:
+
+* [ ] Tiene una interfaz que permite a la usuaria cifrar y descifrar
+* [ ] El proyecto será entregado incluyendo pruebas unitarios de los métodos de `cipher` (`encode` y `decode`) y 
+* [ ] El proyecto será entregado libre de _errores_ de `eslint` (_warnings_ son ok)
+* [ ] El proyecto será entregado subiendo tu código a GitHub.
+* [ ] La interfaz será "desplegada" usando GitHub Pages. 
+* [ ] El README contiene una definición del producto
