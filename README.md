@@ -18,10 +18,10 @@
 ## 1. Objetivos de aprendizaje generales
 Como continuación del proyecto de preadmisión, volverás a trabajar sobre fundamentos de JavaScript, incluyendo conceptos como variables, condicionales, y funciones, así como eventos y manipulación básica del DOM, fundamentos de HTML y CSS.
 
-Mientras cumplir este proyecto, familiarizarás con estes nuevos conceptos:
+Mientras desarrollas este proyecto, te familiarizarás con estos nuevos conceptos:
 
-* Un _boilerplate_, la estructura básica de un proyecto en distintas carpetas (atraves `modulos` en JS).
-* Las herramientas mantenimiento y mejora del código (linters y pruebas unitarias).
+* Un _boilerplate_, la estructura básica de un proyecto en distintas carpetas (a través `modulos` en JS).
+* Las herramientas de mantenimiento y mejora del código (linters y pruebas unitarias).
 * Objetos en JavaScript, su estructura y métodos.
 * Iteración (bucles) en JavaScript.
 * Control de versiones con git (y la plataforma github)
@@ -71,34 +71,34 @@ Algunas ideas de ejemplo:
 
 ## 4. Consideraciones generales
 
-* Este proyecto debes que resolver en una manera individual. Te recomendamos una duracion de 1-3 sprints.
+* Este proyecto lo resolvemos de manera individual. Te recomendamos una duracion de 1-3 sprints.
 * Enfócate en aprender y no solamente en "completar" el proyecto. Te va a costar.
 * Te sugerimos que no intentes saberlo todo antes de empezar a codear. No te preocupes demasiado ahora por lo que _todavía_ no entiendas. Irás aprendiendo.
 
 
 ## 5. Hito 1: Criterios de aceptación mínimos del proyecto 
 
-Estes son los requisitos que tu proyecto debes que cumplir para asegurar que tu trabajo toca los objetivos importantes.  
+Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu trabajo cubra los objetivos principales.  
 
 **1. Una interfaz que debe permitir a la usuaria:**
 
   * **Cifrar un mensaje**
     * Insertar el mensaje (texto) que quiere cifrar. El mensaje usa alfabeto simplificado (solamente mayúsculas y sin ñ).
-    * Elegir un numero de desplazamiento (_offset_) indicando cuántas posiciones quiere que
-  el cifrado desplace cada caracter en el alfabeto. El numero sera positiva y entera (positive integer).
+    * Elegir un numero de desplazamiento (_offset_) indicando cuántas posiciones quieres que
+  el cifrado desplace cada caracter en el alfabeto. El numero sera positivo y entero (positive integer).
     * Ver el resultado del mensaje cifrado.
 
  * **Descifrar un mensaje**
-    * Insertar el mensaje (texto) que quiere descifrar. El mensaje usa alfabeto simplificado (solamente mayúsculas y sin ñ).
-    * Elegir un numero desplazamiento (_offset_) indicando cuántas posiciones quiere que
-  el cifrado desplace cada caracter en el alfabeto. El numero sera positiva y entera (positive integer).
+    * Insertar el mensaje (texto) que quieres descifrar. El mensaje usa alfabeto simplificado (solamente mayúsculas y sin ñ).
+    * Elegir un numero desplazamiento (_offset_, que corresponda al que usamos para cifrar) indicando cuántas posiciones quieres que
+  el cifrado desplace cada caracter en el alfabeto. El numero sera positivo y entero (positive integer).
     * Ver el resultado del mensaje descifrado.
 
 **2. Pruebas unitarios de los métodos.**  
   Los metódos de `cipher` (`encode` y `decode`) deben tener cobertura con pruebas unitarias.
 
 **3. Código de tu proyecto subido a tu repo y interfaz "desplegada".**  
-  El código final debe que estar subido al GitHub. La interfaz, la pagina web, debe ser "desplegada" usando GitHub Pages.
+  El código final debe estar subido en un repositorio en GitHub. La interfaz o pagina web, debe ser "desplegada" usando GitHub Pages.
 
 **4. Un README que contiene una definición del producto.**  
   En el README cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz. Estas preguntas sirven como guia:
@@ -107,7 +107,7 @@ Estes son los requisitos que tu proyecto debes que cumplir para asegurar que tu 
   * Cuáles son los objetivos de estos usuarios en relación con tu producto.
   * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
-Con estes requisitos cumplido puedes considerar Project Feedback con un coach.
+Con estos requisitos cumplidos puedes agendar un Project Feedback con unx coach.
 
 ## 6. Hito 2 (opcional): Agrega soporte para minúsculas y otros caracteres
 
@@ -134,7 +134,7 @@ setup y configuración necesaria para ejecutar los tests (pruebas) así como _co
 coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
 test`.
 
-El boilerplate que les damos contiene este estructura:
+El boilerplate que les damos contiene esta estructura:
 
 ```text
 ./
@@ -156,13 +156,13 @@ El boilerplate que les damos contiene este estructura:
 
 ### Descripción de scripts / archivos
 
-* `README.md`: debe explicar la información necesarias para el uso de tu aplicación web,
+* `README.md`: debe explicar la información necesaria para el uso de tu aplicación web,
   así como una introducción a la aplicación, su funcionalidad y decisiones de
   diseño que tomaron.
 * `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
   debe contener tu _markup_ (HTML) e incluir el CSS y JavaScript necesario.
 * `src/style.css`: este archivo debe contener las reglas de estilo. Queremos que escribas tus
-propias reglas, por eso NO está permitido el uso de frameworks de CSS (Bootstrap, materialize, etc).
+propias reglas, por eso NO está permitido el uso de frameworks de CSS (Bootstrap, Materialize, etc).
 * `src/cipher.js`: acá debes implementar el objeto `cipher`, el cual ya está
   _exportado_ en el _boilerplate_. Este objeto (`cipher`) debe contener dos
   métodos:
