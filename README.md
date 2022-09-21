@@ -424,7 +424,6 @@ Organización del Trabajo:
 * [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
   esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
   poco a lo largo del -_bootcamp_.
-* [Guía para Cifrado César](https://docs.google.com/presentation/d/e/2PACX-1vTQ7-8LZDHrT4Y6AOBN72Nkfz1eJAeseBHpcHX8BSq0aFCFoZmuMjluMeyFNgK9ISKxTz0H03yGfJiT/pub?start=false&loop=false&delayms=60000)
 
 ***
 
@@ -433,8 +432,8 @@ Organización del Trabajo:
 En resumen, los criterios de aceptación mínimos del proyecto para considerar Project Feedback:
 
 * [ ] Tiene una interfaz que permite a la usuaria cifrar y descifrar
-* [ ] El proyecto será entregado incluyendo pruebas unitarios de los métodos de `cipher` (`encode` y `decode`) y 
-* [ ] El proyecto será entregado libre de _errores_ de `eslint` (_warnings_ son ok)
+* [ ] El proyecto será entregado incluyendo pruebas unitarios de los métodos de `cipher` (`encode` y `decode`). 
+* [ ] El proyecto será entregado libre de _errores_ de `eslint` (_warnings_ son ok).
 * [ ] El proyecto será entregado subiendo tu código a GitHub.
 * [ ] La interfaz será "desplegada" usando GitHub Pages. 
-* [ ] El README contiene una definición del producto
+* [ ] El README contiene una definición del producto.
