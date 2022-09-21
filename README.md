@@ -188,6 +188,16 @@ entorno (browser en este caso) y las [reglas recomendadas (`"eslint:recommended"
 En cuanto a reglas/guías de estilo en sí,
 usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
+### Deploy
+
+Hacer que los sitios estén publicados (o _desplegados_) para que usuarias de
+la web puedan acceder a él es algo común en proyectos de desarrollo de software.
+
+En este proyecto, utilizaremos _Github Pages_ para desplegar nuestro sitio web.
+
+El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
+ consultar su [documentación oficial](https://docs.github.com/es/pages).
+ 
 ***
 
 ## 8. Objetivos de aprendizaje
@@ -431,7 +441,7 @@ Organización del Trabajo:
 
 En resumen, los criterios de aceptación mínimos del proyecto para considerar Project Feedback:
 
-* [ ] Tiene una interfaz que permite a la usuaria cifrar y descifrar
+* [ ] Tiene una interfaz que permite a la usuaria cifrar y descifrar.
 * [ ] El proyecto será entregado incluyendo pruebas unitarios de los métodos de `cipher` (`encode` y `decode`). 
 * [ ] El proyecto será entregado libre de _errores_ de `eslint` (_warnings_ son ok).
 * [ ] El proyecto será entregado subiendo tu código a GitHub.
